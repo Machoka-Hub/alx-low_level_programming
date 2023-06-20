@@ -35,8 +35,8 @@ int main(void)
 
 	for (x = 92; x < 99; x++)
 	{
-		printf(", %lu", after1 + (after2 / l));
-		printf("%lu", after2 % l);
+		printf(", %lu", after1 + (after2 / y));
+		printf("%lu", after2 % y);
 		after1 = after1 + before1;
 		before1 = after1 - before1;
 		after2 = after2 + before2;
